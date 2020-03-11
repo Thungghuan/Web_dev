@@ -6,7 +6,7 @@ function createNumber() {
     }
     nums.push(0);
 
-    for (let i = 0; i < 5; ++i) {
+    for (let i = 0; i < 500; ++i) {
         var index = parseInt(4 * Math.random());
         // console.log(moves[index]);
         if (testMove(nums, moves[index])) {
