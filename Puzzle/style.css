@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #707F80;
+}
+
+#container {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    background-image: url(/img/bgp1.jpg);
+}
+
+.block {
+    cursor: pointer;
+}
+
+#block1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/img1/img1_01.png);
+    /* top: 0px; */
+    /* left: 0px; */
+}
+
+#block2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/img1/img1_02.png);
+    /* top: 0px; */
+    /* left: 150px; */
+}
+
+#block3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/img1/img1_03.png);
+    /* top: 0px; */
+    /* left: 300px; */
+}
+
+#block4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/img1/img1_04.png);
+    /* top: 150px; */
+    /* left: 0px; */
+}
+
+#block5 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/img1/img1_05.png);
+    /* top: 150px; */
+    /* left: 150px; */
+}
+
+#block6 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/img1/img1_06.png);
+    /* top: 150px; */
+    /* left: 300px; */
+}
+
+#block7 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/img1/img1_07.png);
+    /* top: 300px; */
+    /* left: 0px; */
+}
+
+#block8 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/img1/img1_08.png);
+    /* top: 300px; */
+    /* left: 150px; */
+}
+
+#block9 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/img1/img1_09.png);
+    /* top: 300px; */
+    /* left: 300px; */
+}
+
+@keyframes error {
+    0% {
+        left: 0px;
+    }
+    25% {
+        left: -10px;
+    }
+    50% {
+        left: 0px;
+    }
+    75% {
+        left: 10px;
+    }
+    100% {
+        left: 0px;
+    }
+}
