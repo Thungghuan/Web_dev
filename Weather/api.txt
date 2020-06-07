@@ -1,0 +1,5 @@
+七天天气api: https://www.tianqiapi.com/free/week?appid=67142924&appsecret=9hCmUXG3&city=汕头
+
+天气图标
+.xue、.lei、.shachen、.wu、.bingbao、.yun、.yu、.yin、.qing
+ 雪     雷      沙尘       雾       冰雹      多云   雨   阴天  晴天

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215,176,194);
+    user-select: none;
+}
+
+#container {
+    /* height: calc(800px - 60%); */
+    height: 85%;
+    width: 60%;
+    min-width: 300px;
+    background-color: white;
+}
+
+#select-city {
+    text-align: center;
+}
+
+#weather-window {
+    height: 100%;
+    background-color: rgb(151,190,189);
+    font-size: 12px;
+}
+
+
+#day-weather {
+    position: relative;
+    width: calc(100% - 10px);
+    margin-left: 5px;
+    height: 50%;
+    background-color: rgb(196,214,218);
+    /* background-color: red; */
+}
+
+#day-weather > #city {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 5%;
+    font-size: 4.5em;
+}
+
+#day-weather > #weather {
+    position: absolute;
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+    top: 45%;
+}
+
+#day-weather > #tem {
+    position: absolute;
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+    top: 65%;
+}
+
+#day-weather > #wea_img {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: -3%;
+    top: 10%;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#week-weather {
+    /* display: flex; */
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+#week-weather > .week-day {
+    position: absolute;
+    font-size: 10px;
+    text-align: center;
+    height: 100%;
+    width: 16%;
+}
+
+#week-weather > .week-day > .week-date {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 5%;
+    color: white;
+    /* background-color: green; */
+    line-height: 50px;
+    font-size: 2em;
+}
+
+#week-weather > .week-day > .week-wea {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 25%;
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#week-weather > .week-day > .week-tem {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    color: white;
+    top: 70%;
+    font-size: calc(120% + 0.3em);
+    line-height: 50px;
+    /* background-color: red; */
+}
